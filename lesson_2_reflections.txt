@@ -6,7 +6,7 @@ What value do you think it offers?
     Staging is the intermediate step between commiting files in a working directory.
     It lets you choose which files I want to commit.
     I can add a file to the staging area whenever I am ready. I don't need to remember
-    all the files in my mind until I make a commit.
+    all the files in my mind until I make a commit.  
 
 How can you use the staging area to make sure you have one commit per logical
 change?
