@@ -6,18 +6,27 @@ What value do you think it offers?
     Staging is the intermediate step between commiting files in a working directory.
     It lets you choose which files I want to commit.
     I can add a file to the staging area whenever I am ready. I don't need to remember
-    all the files in my mind until I make a commit.  
+    all the files in my mind until I make a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+    I can make lots of changes in the working directory, and yet only add a subset of
+    files to the staging area. So I can choose to only add changes that are related to
+    one logical change and make that a commit.
+    
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+    Trying out experimental changes or different versions of the code.
+    
 How do the diagrams help you visualize the branch structure?
+    Wow! It was super helpful!
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    Changes from both branches are retained. It creates a new commit and moves
+    checked out branch label to the new commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    Pros: time-saving.
+    Cons: prone to conflicts.
